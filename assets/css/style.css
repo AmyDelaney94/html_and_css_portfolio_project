@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #160f0f;
+    color: grey;
 }
 
 /* Header and Logo */
@@ -18,6 +18,13 @@ body {
     color: #3c3c3c;
 }
 
+#logo {
+    letter-spacing: 3px; 
+}
+
+#logo #selection {
+    line-height: 75px;  
+}
 h2, h3 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
@@ -28,12 +35,13 @@ h2, h3 {
 #selction {
     font-size: 90%;
     letter-spacing: 3px;
-    line-height: 75px;
+    
 }
 
 #selection li {
     float: right;
     margin-right: 40px;
+    list-style-type: none;
 }
 
 #selection a {
@@ -48,3 +56,78 @@ h2, h3 {
 .active {
     border-bottom: 1px solid red;
 } 
+
+/* Home Page */
+#selfie {
+    width: 100px;
+    height: 175px;
+    float: left;
+    margin-left: 15%;
+}
+
+#summary p {
+    border: 2px solid black;
+    float: right;
+    width: 35%;
+    margin-right: 10%;
+
+}
+
+#summary h3 {
+    float: center;
+    text-transform: uppercase;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+    margin-top: 10%; 
+}
+
+#hobbies h3 {
+    float: center;
+    text-transform: uppercase;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+#summary {
+    height: 400px;
+    position: inline-block;
+}
+#hobbies {
+    height: 600px;
+    position: inline-block;
+}
+
+/* About Me Page */
+
+/* Contact Page */
+
+/* Footer */
+
+footer {
+    position: relative;
+    text-align: center;
+    border-bottom: 5%;
+    letter-spacing: 3px;
+    line-height: 75px;
+    margin-right: 40px;
+    margin-left: 40%;
+    list-style-type: none;
+}
+
+.socials li{
+    float: center;
+    list-style-type: none;
+}
+
+.socials i {
+    font-size: 150%;
+    margin: 10%;
+    padding: 55%;
+    color: grey;
+}
+
+.socials a:hover {
+        border-bottom: 1px solid blue;
+}
