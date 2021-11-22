@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #160f0f;
+}
+
+/* Header and Logo */
+
+#home {
+    font-family: 'Oswald', sans-serif;
+    color: #3c3c3c;
+}
+
+h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+}
+
+/* Navigation Links */
+#selction {
+    font-size: 90%;
+    letter-spacing: 3px;
+    line-height: 75px;
+}
+
+#selection li {
+    float: right;
+    margin-right: 40px;
+}
+
+#selection a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#selection a:hover {
+    border-bottom: 1px solid blue;
+}
+
+.active {
+    border-bottom: 1px solid red;
+} 
