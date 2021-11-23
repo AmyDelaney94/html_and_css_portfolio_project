@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: grey;
+    background-color: lavender;
 }
 
 /* Header and Logo */
@@ -20,10 +21,14 @@ body {
 
 #logo {
     letter-spacing: 3px; 
+    margin-bottom: 5%;
+    float: left;
 }
 
 #logo #selection {
-    line-height: 75px;  
+    line-height: 75px; 
+    margin: 30%;
+    padding: 40%;
 }
 h2, h3 {
     font-family: 'Oswald', sans-serif;
@@ -31,11 +36,14 @@ h2, h3 {
     color: black;
 }
 
+#home h2 {
+    line-height: 75px;
+}
+
 /* Navigation Links */
-#selction {
-    font-size: 90%;
+#selection {
+    font-size: 110%;
     letter-spacing: 3px;
-    
 }
 
 #selection li {
@@ -85,18 +93,29 @@ h2, h3 {
 #hobbies h3 {
     float: center;
     text-transform: uppercase;
-    margin-left: 30%;
-    margin-right: 30%;
-    
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 #summary {
-    height: 400px;
+    height: 300px;
     position: inline-block;
 }
 #hobbies {
-    height: 600px;
+    height: 500px;
     position: inline-block;
+}
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#gallery img {
+    width: 100%;
+    height: 275px;
 }
 
 /* About Me Page */
@@ -106,19 +125,17 @@ h2, h3 {
 /* Footer */
 
 footer {
-    position: relative;
-    text-align: center;
+    position: absolute;
     border-bottom: 5%;
     letter-spacing: 3px;
     line-height: 75px;
     margin-right: 40px;
     margin-left: 40%;
-    list-style-type: none;
 }
 
 .socials li{
-    float: center;
     list-style-type: none;
+    display: inline;
 }
 
 .socials i {
