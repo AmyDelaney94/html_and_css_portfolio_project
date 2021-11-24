@@ -8,36 +8,26 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: grey;
+    color: #3a3a3a;
     background-color: lavender;
 }
 
 /* Header and Logo */
-
 #home {
     font-family: 'Oswald', sans-serif;
     color: #3c3c3c;
 }
 
 #logo {
-    letter-spacing: 3px; 
+    letter-spacing: 2px; 
     margin-bottom: 5%;
     float: left;
 }
 
 #logo #selection {
     line-height: 75px; 
-    margin: 30%;
-    padding: 40%;
-}
-h2, h3 {
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 1px;
-    color: black;
-}
-
-#home h2 {
-    line-height: 75px;
+    /* margin: 30%;
+    padding: 40%; */
 }
 
 /* Navigation Links */
@@ -65,7 +55,23 @@ h2, h3 {
     border-bottom: 1px solid red;
 } 
 
+
 /* Home Page */
+h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.home h2{
+    float: center;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+    margin-top: 40%;
+    padding-top: 5%;
+}
+
 #selfie {
     width: 100px;
     height: 175px;
@@ -78,7 +84,6 @@ h2, h3 {
     float: right;
     width: 35%;
     margin-right: 10%;
-
 }
 
 #summary h3 {
@@ -118,14 +123,10 @@ h2, h3 {
     height: 275px;
 }
 
-/* About Me Page */
-
-/* Contact Page */
-
 /* Footer */
 
 footer {
-    position: absolute;
+    position: relative;
     border-bottom: 5%;
     letter-spacing: 3px;
     line-height: 75px;
@@ -142,9 +143,14 @@ footer {
     font-size: 150%;
     margin: 10%;
     padding: 55%;
-    color: grey;
+    color: #3a3a3a;
 }
 
 .socials a:hover {
         border-bottom: 1px solid blue;
 }
+
+/* About Me Page */
+
+/* Contact Page */
+
