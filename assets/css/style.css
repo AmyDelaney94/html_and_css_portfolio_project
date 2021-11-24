@@ -131,24 +131,26 @@ footer {
     position: relative;
     border-bottom: 5%;
     letter-spacing: 3px;
-    line-height: 75px;
+    line-height: 100px;
+    margin-top: 10%;
     margin-right: 40px;
     margin-left: 40%;
 }
 
-.socials li{
+#socials li{
     list-style-type: none;
+    position: center;
     display: inline;
 }
 
-.socials i {
+#socials i {
     font-size: 150%;
-    margin: 10%;
-    padding: 55%;
+    /* margin: 10%;
+    padding: 55%; */
     color: #3a3a3a;
 }
 
-.socials a:hover {
+#socials a:hover {
         border-bottom: 1px solid blue;
 }
 
