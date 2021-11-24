@@ -169,7 +169,7 @@ footer {
 }
 
 #school h2 {
-    font-size: 250%;
+    font-size: 200%;
     float: center;
     margin-left: 40%;
     margin-right: 40%;
@@ -191,6 +191,14 @@ footer {
     border-collapse: collapse;
 }
 
+#job h2 {
+    font-size: 200%;
+    float: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3%;
+    padding-top: 5%;
+}
 
 /* Contact Page */
 
