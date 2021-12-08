@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="resume, job seeking, experience, dublin, ireland">
+    <link rel="stylesheet" href="assets/css/styleform.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Online Resume</title>
 </head>
@@ -12,26 +13,40 @@
 <body>
     <header>
         <a href="index.html">
-            <h1>Curriculum Vitae</h1>
+            <h1 id=logo>Curriculum Vitae</h1>
         </a>
         <nav id=selection>
-         <ul>
-             <li>
-                 <a href="contact.html" class="active">Contact</a>
-             </li>
-             <li>
-                 <a href="aboutme.html">About Me</a>
-             </li>
-             <li>
-                 <a href="index.html">Home</a>
-             </li>
-         </ul>
-     </nav>   
+            <ul>
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+                <li>
+                    <a href="aboutme.html">History</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>   
     </header>   
+    <section class="form">
+            <form action="contact.html" method="POST" class="contact-form">
+                <h3>Please contact me for references or if you need any further information.</h3>
+                <label for="name">Name</label>
+                <input id="name" type="text" class="text" required>
 
-        
-    
+                <label for="email">Email</label>
+                <input id="email" type="email" class="text" required>
 
+                <label for="subject">Subject</label>
+                <input id="subject" type="text" class="text" required>
+
+                <label for="message">Message</label>
+                <input id="message" type="text" class="text" required>
+
+                <input type="submit" value="Send Message" class="send-button">
+            </form>
+    </section>
 <footer>
     Social Media Links
 </footer>

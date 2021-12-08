@@ -8,11 +8,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #3a3a3a;
 }
 
 /* Header and Logo */
-#logo #selection {
+#logo, #selection {
     line-height: 75px;
 
 }
@@ -54,8 +55,8 @@ body {
 /* Home Page */
 #hero {
     width: 100%;
-    height: 500px;
-    
+    height: 200px;
+
 }
 
 .home {
